@@ -1,0 +1,52 @@
+* {
+   font-family: "Torus";
+}
+
+/* THESE DONT WORK, THEY'RE FOR REFERENCE ONLY */
+:root {
+    --background-color: #171717;
+    --selected-color: #102836;
+    --border-color: #313538;
+}
+
+window {
+    background-color: transparent;
+}
+
+#input {
+    background-color: #171717;
+    border: 1px solid #313538;
+    border-radius: 0px;
+
+    min-height: 55px;
+    margin-bottom: 10px;
+    font-size: 20px;
+
+    color: white;
+}
+
+#scroll {
+    background-color: #171717;
+    border: 1px solid #313538;
+
+    min-height: 0px;
+}
+
+#entry {
+    padding: 10px;
+    font-size: 20px;
+}
+#entry:selected {
+    background-color: #102836;
+}
+#entry:focus {
+    outline: none;
+    border: none;
+}
+#img {
+    margin-right: 5px;
+}
+#text {
+    padding: 4px;
+    color: white;
+}

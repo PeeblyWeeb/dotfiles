@@ -1,0 +1,9 @@
+allow_images=true
+hide_scroll=true
+no_actions=true
+term=ghostty
+mode=drun
+width=700
+exit_on_click=true
+exit_on_unfocus=true
+--show
